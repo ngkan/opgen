@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link id="cssLink" rel="stylesheet" type="text/css" href="styles/default.css">
+    <script src="script.js" type="module"></script>
+    <title> One-page generator </title>
+</head>
+<body>
+
+<h1> One-page generator</h1>
+
+Your Markdown text here:<br>
+<textarea  class = "MDinput" rows="20" cols="50">A simple sentence.</textarea>
+<br>
+
+Your choice of template:
+<select class = "TemplateSelector" value="alpha">
+    <option value="alpha"> Alpha </option>
+    <option value="beta"> Beta </option>
+</select>
+<br>
+
+<button class="Generating">
+    Click me!
+</button>
+<br>
+
+Preview:<br>
+<div class = "Preview"></div>
+<br>
+
+Your file:<br>
+<textarea  class = "Result" rows="20" cols="50"></textarea>
+<br>
+
+Miscellaneous: Choose a theme for this website:
+<select class = "StyleSelector" value="default">
+    <option value="default" selected> Default </option>
+    <option value="optional"> Optional </option>
+</select>
+
+</body>
+</html>
