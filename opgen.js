@@ -8,16 +8,7 @@ const Generating       = document.querySelector('.Generating');
 const Preview          = document.querySelector('.Preview');
 const Result           = document.querySelector('.Result');
 
-
 export function listenToGeneratingEvents(){
-    // MDinput.addEventListener('change', ()=>{
-    //     text = Mdinput.value;
-    // });
-
-    // TemplateSelector.addEventListener('change', ()=>{
-    //     template = TemplateSelector.value;
-    // });
-
     Generating.addEventListener('click', ()=>{
         let text = MDinput.value;
         let template_name = TemplateSelector.value;

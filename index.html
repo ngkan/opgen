@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -7,39 +8,62 @@
     <script src="script.js" type="module"></script>
     <title> One-page generator </title>
 </head>
+
 <body>
+    <h1> One-page generator</h1>
 
-<h1> One-page generator</h1>
+    <div class="WorkingSpace">
+        <div class="Box" id="Input">
+            Your Markdown text here:<br>
+            <textarea class="MDinput">A simple sentence.</textarea>
+            <br>
+        </div>
 
-Your Markdown text here:<br>
-<textarea  class = "MDinput" rows="20" cols="50">A simple sentence.</textarea>
-<br>
+        <div class="Box" id="Output">
+            Preview:<br>
+            <div class="Preview"></div>
+            <br>
+        </div>
+    </div>
+    
+    Your choice of template:
+    <select class="TemplateSelector" value="alpha">
+        <option value="alpha"> Alpha </option>
+        <option value="beta"> Beta </option>
+    </select>
+    <br>
+    <button class="Generating">
+        Click me!
+    </button>
+    <br>
 
-Your choice of template:
-<select class = "TemplateSelector" value="alpha">
-    <option value="alpha"> Alpha </option>
-    <option value="beta"> Beta </option>
-</select>
-<br>
+    <div class="Box" id="OutputText">
+        Your file:<br>
+        <textarea class="Result"></textarea>
+    </div>
 
-<button class="Generating">
-    Click me!
-</button>
-<br>
+    <br>
+    <br>
+    
+    <div class = "Bot">
+        <div class="BottomBox" id="Miscellaneous">
+            Miscellaneous: Choose a theme for this website:
+            <select class="StyleSelector" value="default">
+                <option value="default" selected> Default </option>
+                <option value="optional"> Optional </option>
+                <option value="solarized"> Solarized </option>
+            </select>
+        </div>
+        <!--
+        <br>
+        <footer>
+            Khanh Nguyen 2020
+        </footer>
+        -->
+    </div>
+    
 
-Preview:<br>
-<div class = "Preview"></div>
-<br>
-
-Your file:<br>
-<textarea  class = "Result" rows="20" cols="50"></textarea>
-<br>
-
-Miscellaneous: Choose a theme for this website:
-<select class = "StyleSelector" value="default">
-    <option value="default" selected> Default </option>
-    <option value="optional"> Optional </option>
-</select>
-
+    
 </body>
+
 </html>

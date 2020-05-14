@@ -1,10 +1,10 @@
 body {
-    background-color: black;
-    color: green ;
+    background-color: #002b36;
+    color: #fdf6e3 ;
 }
 
 .Box {
-    background-color:black;
+    background-color:#073642;
     border: bold solid 10px;
     border-radius: 20px;
     width: 50%;
