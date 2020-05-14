@@ -16,3 +16,4 @@ This project aims to create a website that user can create a simple webpage with
 
 #### Stuff
 - Using "" in HTML files and '' in javascript files
+- python -m SimpleHTTPServer 8000

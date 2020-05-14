@@ -1,3 +1,90 @@
-body{
-    background-color: aquamarine;
+/* General */
+html, body{
+    background-color: 	#87CEFA;
+    height: 100%;
+    width: auto;
+    position: relative;
+    text-align: center;
+}
+
+h1{
+    text-align:center;
+    font-family: Sans-serif;
+}
+.Box {
+    border: 1px solid;
+    background-color:#CCE6E6 ;
+    border-radius: 0px;
+    width: 40%;
+    height: 100%;
+}
+textarea{
+    background-color: #f2f2f2;
+    height: 95%;
+    width: 100%;
+    /* https://stackoverflow.com/questions/271067/
+    how-can-i-make-a-textarea-100-width-without-
+    overflowing-when-padding-is-present
+    */
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    resize: none;
+}
+.MDinput{
+    position: absolute;
+    height: 92%;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+}
+
+/* For input + preview */
+.WorkingSpace{
+    position: relative;
+    text-align: center;
+    height: 40%;
+    margin: 10px auto;
+    padding: 10px;
+}
+.WorkingSpace.Box{
+    width: 40%;
+}
+#Input {
+    position: absolute;
+    top: 0%;
+    left: 10%;
+}
+#Output {
+    position: absolute;
+    top: 0%;
+    left: 50%;
+}
+
+/* For output*/
+#OutputText {
+    position: relative;
+    margin-top: 20px;
+    display: inline-block;
+    height: 30%;
+}
+.Result {
+    position: absolute;
+    height: 90%;
+    width: 100%;
+    left: 0%;
+    bottom: 0%;
+}
+
+/*^_^*/
+.BottomBox {
+    display: inline-block;
+}
+footer {
+    display: inline-block;
+}
+.Bot{
+    font-size: 0.8em;
+    position: relative;
+    text-align: center;
 }
