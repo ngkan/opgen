@@ -1,4 +1,2 @@
-export const div_body='<div>\
-This is alpha template\
- a_very_long_word\
-<div>';
+export const div_body_top='<div class="Alpha">';
+export const div_body_bot='</div>';
