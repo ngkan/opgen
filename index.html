@@ -14,13 +14,27 @@
 
     <div class="WorkingSpace">
         <div class="Box" id="Input">
-            Your Markdown text here:<br>
-            <textarea class="MDinput">A simple sentence.</textarea>
+            <div class="TabBar">
+                <div class="TabButton Active" id="Tab1"> Tab1 </div>
+                <div class="TabButton Hidden" id="Tab2"> Tab2 </div>
+                <div class="TabButton Hidden" id="Tab3"> Tab3 </div>
+                <div class="TabButton Hidden" id="Tab4"> Tab4 </div>
+                <div class="TabButton Hidden" id="Tab5"> Tab5 </div>
+                <div class="TabButton" id="MoreTab"> + </div>
+            </div>
+            
+            <div class="InputTab">
+                <textarea class="MDinput" id="Input1">The first simple sentence.</textarea>
+                <textarea class="MDinput Hidden" id="Input2">The second simple sentence.</textarea>
+                <textarea class="MDinput Hidden" id="Input3">The third simple sentence.</textarea>
+                <textarea class="MDinput Hidden" id="Input4">The fourth simple sentence.</textarea>
+                <textarea class="MDinput Hidden" id="Input5">The fifth simple sentence.</textarea>
+            </div>
             <br>
         </div>
 
         <div class="Box" id="Output">
-            Preview:<br>
+            <div class="MakeItFloat">Preview</div>
             <div class="Preview"></div>
             <br>
         </div>
