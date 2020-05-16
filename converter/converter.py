@@ -1,10 +1,9 @@
 """
-Convert a HTML / CSS / any type of files to a string and replacing
+Convert a HTML / CSS / of files to a string and replacing
 newline characters ('\n') with backslash ('\').
+Also add \\ to '.
 """
 
-print('This program can only convert files in the same folder')
-print('... and also create a file consist the result in the same folder.')
 print('Name of the file:')
 
 file_name = str(input())
@@ -15,6 +14,8 @@ with open(file_name, 'r') as file:
     for c in data:
         if c == '\n':
             out += '\\\n'
+        elif c == '\'':
+            out += '\\\''
         else:
             out += c
     

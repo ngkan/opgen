@@ -8,6 +8,8 @@ function changeTheme(){
     CSSLink.setAttribute('href', dir);
 }
 
+StyleSelector.value = 'default';
+
 export function listenToStyleChangingEvents(){
     StyleSelector.addEventListener('change', ()=>{changeTheme()});
 }

@@ -6,4 +6,5 @@ import * as Styles from './styles/styles.js';
 Styles.listenToStyleChangingEvents();
 
 // Handling generating stuffs
-Opgen.listenToGeneratingEvents();
+
+Opgen.listenToWhatIWant();
