@@ -1,4 +1,4 @@
-'AlphaListenToTabs();\
+export const script ='AlphaListenToTabs();\
 \
 function AlphaListenToTabs(){\
     console.log(\'here\');\
