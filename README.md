@@ -4,26 +4,18 @@ A project for CSE104.
 
 This project aims to create a website that user can create a simple webpage with Markdown files. 
 
+## Todo - markdown to html
 
-## Todo - general
-- [X] Construct a skeleton for the project
-- [X] Generating HTML files
-- [X] Decorate the generator
-- [X] Show demos when users are creating their websites
-- [ ] Adding themes/templates for the generated websites
-- [ ] Make themes/templates customizable directly online (locally)
-
-- [ ] Add Javascript to the generated websites
-
-## Todo - markdown to html (**easy** syntax first)
+Need the parser to work with
 https://daringfireball.net/projects/markdown/basics
+
 - [X] Heading
 - [] Paragraph
-- [] Line breaks
-- [] Emphasis
+- [X] Line breaks
+- [X] Emphasis
 - [] Blockquotes
 - [] List
-- [] Code
+- [X] Code
 - [] Horizontal rules
 - [X] Links
 - [X] Images
