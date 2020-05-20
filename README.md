@@ -16,7 +16,7 @@ This project aims to create a website that user can create a simple webpage with
 - [ ] Add Javascript to the generated websites
 
 ## Todo - markdown to html (**easy** syntax first)
-https://www.markdownguide.org/basic-syntax/
+https://daringfireball.net/projects/markdown/basics
 - [X] Heading
 - [] Paragraph
 - [] Line breaks

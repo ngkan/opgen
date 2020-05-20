@@ -86,7 +86,7 @@ function generateHTMLforuser(recreate = false){
     let inputs = [null];
     for(let i=1;i<=5;i++){
         tab_names.push(TabName[i].value);
-        inputs.push(MDtoHTML.markdown_text_to_html(Input[i].value));
+        inputs.push(MDtoHTML.md_to_html(Input[i].value));
     }
 
     let previewhtml = Templates[template_name].preview_html(number_of_tabs, tab_names, inputs);
